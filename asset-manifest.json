@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ManyataTechpark/static/css/main.35382eae.css",
-    "main.js": "/ManyataTechpark/static/js/main.da81012a.js",
+    "main.js": "/ManyataTechpark/static/js/main.288c56e6.js",
     "index.html": "/ManyataTechpark/index.html",
     "main.35382eae.css.map": "/ManyataTechpark/static/css/main.35382eae.css.map",
-    "main.da81012a.js.map": "/ManyataTechpark/static/js/main.da81012a.js.map"
+    "main.288c56e6.js.map": "/ManyataTechpark/static/js/main.288c56e6.js.map"
   },
   "entrypoints": [
     "static/css/main.35382eae.css",
-    "static/js/main.da81012a.js"
+    "static/js/main.288c56e6.js"
   ]
 }
