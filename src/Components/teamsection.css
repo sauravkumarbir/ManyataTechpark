@@ -1,0 +1,53 @@
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add some shadow for depth */
+    border: none; /* Remove border if you want a cleaner look */
+    border-radius: 10px; /* Rounded corners for the card */
+    overflow: hidden; /* Ensure child elements are contained within the card */
+}
+.team .card-boy{
+font-size: 20px;
+}
+
+.img-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.img-area img {
+    width: 150px; /* Control the size of the image */
+    height: 150px; /* Ensure the image is circular */
+    
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image covers the space properly */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add some shadow for the image */
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.social i {
+    font-size: 1.2rem;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.social i:hover {
+    color: #ff8800; /* Change the color on hover for a nice effect */
+}
+.position{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.team .card{
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15)
+}
