@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ManyataTechpark/static/css/main.35382eae.css",
+    "main.js": "/ManyataTechpark/static/js/main.4b4b290f.js",
+    "index.html": "/ManyataTechpark/index.html",
+    "main.35382eae.css.map": "/ManyataTechpark/static/css/main.35382eae.css.map",
+    "main.4b4b290f.js.map": "/ManyataTechpark/static/js/main.4b4b290f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35382eae.css",
+    "static/js/main.4b4b290f.js"
+  ]
+}
