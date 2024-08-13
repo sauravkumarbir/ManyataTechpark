@@ -7,7 +7,7 @@ const About = () => {
         <div className="row d-flex align-items-stretch">
           <div className="col-lg-4 col-md-12 col-12">
             <div className="about-img h-100 w-100 ">
-              <img src="../images/img2.jpg" className='img-fluid h-100' alt="" />
+              <img src={`${process.env.PUBLIC_URL}/images/img2.jpg`} className='img-fluid h-100' alt="" />
             </div>
           </div>
           <div className="col-lg-8 col-md-12 col-12 ps-lg-5  d-flex align-items-center">
