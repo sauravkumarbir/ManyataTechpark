@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Carousel = () => {
     return (
         <div id="carouselExampleCaptions" class="carousel slide">
@@ -10,7 +11,7 @@ const Carousel = () => {
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="../images/img1.webp" class="d-block w-100" alt="..." />
+                    <img src={`${process.env.PUBLIC_URL}/images/img1.webp`}  class="d-block w-100" alt="..." />
                     <div class="carousel-caption ">
                         <h5>Manayata Tech Park</h5>
                         <p>Manyata Techpark is an award-winning flagship project, planned as a cohesive township at North Bangalore with commercial, residential, hospitality & retail</p>
@@ -18,7 +19,7 @@ const Carousel = () => {
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="../images/img2.jpg" class="d-block w-100" alt="..." />
+                    <img src={`${process.env.PUBLIC_URL}/images/img2.jpg`}  class="d-block w-100" alt="..." />
                     <div class="carousel-caption ">
                         <h5>Manayata Tech Park</h5>
                         <p>Manyata Techpark is an award-winning flagship project, planned as a cohesive township at North Bangalore with commercial, residential, hospitality & retail.</p>
@@ -26,7 +27,7 @@ const Carousel = () => {
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="../images/img3.jpg" class="d-block w-100" alt="..." />
+                    <img src={`${process.env.PUBLIC_URL}/images/img3.jpg`}  class="d-block w-100" alt="..." />
                     <div class="carousel-caption ">
                         <h5>Manayata Tech Park</h5>
                         <p>Manyata Techpark is an award-winning flagship project, planned as a cohesive township at North Bangalore with commercial, residential, hospitality & retail.</p>

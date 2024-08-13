@@ -22,7 +22,7 @@ const Projects = () => {
                         <div className="card text-center bg-white pb-2">
                             <div className="card-body text-dark">
                                 <div className="img-areas mb-4 position-relative">
-                                    <img src="../images/project1.jpg" alt="" className='img-fluid' />
+                                    <img src={`${process.env.PUBLIC_URL}/images/project1.jpg`} alt="" className='img-fluid' />
                                     <div className="overlay">
                                         <div className="text">Manyata Midlands <br /> Discover the Future of Living</div>
                                     </div>
@@ -39,7 +39,7 @@ const Projects = () => {
                         <div className="card text-center bg-white pb-2">
                             <div className="card-body text-dark">
                                 <div className="img-areas mb-4 position-relative">
-                                    <img src="../images/project2.jpg" alt="" className='img-fluid' />
+                                    <img src={`${process.env.PUBLIC_URL}/images/project2.jpg`} alt="" className='img-fluid' />
                                     <div className="overlay">
                                         <div className="text">Earthsong by Manyata <br /> Phase 4 Launching soon!</div>
                                     </div>
@@ -56,7 +56,7 @@ const Projects = () => {
                         <div className="card text-center bg-white pb-2">
                             <div className="card-body text-dark">
                                 <div className="img-areas mb-4 position-relative">
-                                    <img src="../images/project3.jpg" alt="" className='img-fluid' />
+                                    <img src={`${process.env.PUBLIC_URL}/images/project3.jpg`} alt="" className='img-fluid' />
                                     <div className="overlay">
                                         <div className="text">Manyata Tech Park <br /> A Visionary Project</div>
                                     </div>

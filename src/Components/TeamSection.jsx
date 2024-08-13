@@ -18,7 +18,7 @@ const TeamSection = () => {
                         <div className="card text-center">
                             <div className="card-body">
                                 <div className="img-area">
-                                    <img src="../images/saurav.jpg" alt='' className="img-fluid rounded-circle" />
+                                    <img src={`${process.env.PUBLIC_URL}/images/saurav.jpg`} alt='' className="img-fluid rounded-circle" />
                                 </div>
                                 <p className='position text-center'>CEO</p>
                                 <h3 className="card-title py-2">Sauarv Bir</h3>
@@ -37,7 +37,7 @@ const TeamSection = () => {
                         <div className="card text-center">
                             <div className="card-body">
                                 <div className="img-area">
-                                    <img src="../images/team4.avif" alt='' className="img-fluid rounded-circle" />
+                                    <img src={`${process.env.PUBLIC_URL}/images/team4.avif`} alt='' className="img-fluid rounded-circle" />
                                 </div>
                                 <p className='position text-center text-uppercase'>Co-Founder</p>
                                 <h3 className="card-title py-2">Amit Kumar</h3>
@@ -56,7 +56,7 @@ const TeamSection = () => {
                         <div className="card text-center">
                             <div className="card-body">
                                 <div className="img-area">
-                                    <img src="../images/team2.jpg" alt='' className="img-fluid rounded-circle" />
+                                    <img src= {`${process.env.PUBLIC_URL}/images/team2.jpg`} alt='' className="img-fluid rounded-circle" />
                                 </div>
                                 <p className='position text-center text-uppercase'>Director</p>
                                 <h3 className="card-title py-2">Shabana Khan</h3>
@@ -75,7 +75,7 @@ const TeamSection = () => {
                         <div className="card text-center">
                             <div className="card-body">
                                 <div className="img-area">
-                                    <img src="../images/team1.jpg" alt='' className="img-fluid rounded-circle" />
+                                    <img src={`${process.env.PUBLIC_URL}/images/team1.jpg`}  alt='' className="img-fluid rounded-circle" />
                                 </div>
                                 <p className='position text-center text-uppercase'>Manager</p>
                                 <h3 className="card-title py-2">Rose Tailer</h3>
